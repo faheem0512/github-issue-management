@@ -1,0 +1,86 @@
+div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.row {
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+.search-box{
+    flex-shrink: 0;
+    padding: 0 10px;
+}
+.flex-1 {
+    flex:1;
+}
+.grid-card {
+    padding: 25px 15px;
+    border:2px solid #e4e4e4;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.list-container{
+    display: block;
+    overflow: auto;
+}
+
+.touchable{
+    cursor: pointer;
+    text-align: center;
+    background-color: #0000ff;
+    color: #fff;
+}
+.error {
+    color:red;
+}
+.redux-list-container{
+    flex:1;
+}
+
+.loading{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    background: #000;
+    opacity: 0.4;
+    justify-content: center;
+    align-items:center;
+}
+
+.separator {
+    margin-bottom: 10px;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+#root{
+    height: 100%;
+}
+.dont-shrink{
+    flex-shrink: 0;
+}
+.App {
+    flex:1;
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    flex-shrink: 0;
+}
+
+body {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
